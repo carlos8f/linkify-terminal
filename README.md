@@ -15,6 +15,14 @@ var linkified = linkifyTerminal(my_text, {pretty: true})
 console.log(linkifed)
 ```
 
+Before:
+
+![before](https://github.com/carlos8f/linkify-terminal/blob/master/before.png?raw=true)
+
+After:
+
+![after](https://raw.githubusercontent.com/carlos8f/linkify-terminal/master/after.png?raw=true)
+
 - - -
 
 ### License: MIT

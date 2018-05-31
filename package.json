@@ -1,45 +1,28 @@
 {
-	"name": "linkify-urls",
-	"version": "2.0.0",
-	"description": "Linkify URLs in text",
+	"name": "linkify-terminal",
+	"version": "0.0.0",
+	"description": "Apply ANSII codes to URLs in terminal output to make it clickable.",
 	"license": "MIT",
-	"repository": "sindresorhus/linkify-urls",
+	"repository": "carlos8f/linkify-terminal",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"name": "Carlos Rodriguez",
+		"email": "carlos@s8f.org"
 	},
-	"engines": {
-		"node": ">=6"
-	},
-	"scripts": {
-		"test": "xo && ava"
-	},
-	"files": [
-		"index.js"
-	],
 	"keywords": [
 		"linkify",
 		"urls",
 		"url",
 		"link",
-		"reference",
-		"references",
-		"linkifies",
-		"href"
+		"terminal",
+		"cli",
+		"ansii",
+		"clickable"
 	],
 	"dependencies": {
-		"create-html-element": "^2.0.0"
+		"terminal-link": "^1.1.0",
+		"url-regex": "^4.1.1"
 	},
 	"devDependencies": {
-		"ava": "*",
-		"jsdom": "^11.3.0",
-		"xo": "*"
-	},
-	"xo": {
-		"envs": [
-			"node",
-			"browser"
-		]
+		"micro-request": "^666.0.10"
 	}
 }
